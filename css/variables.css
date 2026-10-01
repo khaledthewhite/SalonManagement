@@ -1,0 +1,39 @@
+﻿
+:root {
+    
+    --color-primary: #0B0B0D;
+    --color-white: #FFFFFF;
+    --color-accent: #D6A85F;
+    --color-accent-hover: #c4964d;
+    
+    
+    --bg-body: #F7F8FA;
+    --bg-surface: #FFFFFF;
+    --bg-sidebar: #0B0B0D;
+    --bg-hover: rgba(214, 168, 95, 0.1);
+    
+    
+    --text-main: #0B0B0D;
+    --text-muted: #6B7280;
+    --text-light: #FFFFFF;
+    
+    
+    --border-color: #E5E7EB;
+    --border-light: rgba(255, 255, 255, 0.1);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+    
+    
+    --font-family: 'Tajawal', 'Segoe UI', Tahoma, Arial, sans-serif;
+    
+    
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    
+    
+    --sidebar-width: 280px;
+    --header-height: 80px;
+    --border-radius: 12px;
+    --border-radius-sm: 6px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الملف الشخصي - نظام إدارة صالون التجميل</title>
+    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header"><div class="sidebar-logo">صالون <span>التجميل</span></div></div>
+            <nav class="sidebar-menu">
+                <a href="../index.html" class="menu-item">لوحة التحكم</a>
+                <a href="profile.html" class="menu-item active">الملف الشخصي</a>
+                <a href="settings.html" class="menu-item">الإعدادات</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-search"><input type="text" placeholder="بحث..."></div>
+            </header>
+
+            <div class="page-content">
+                <div class="page-header">
+                    <div class="page-title">
+                        <h1>الملف الشخصي</h1>
+                        <p>تعديل بيانات الحساب الشخصي</p>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>البيانات الشخصية</h3>
+                        </div>
+                        <div class="card-body">
+                            <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 2rem;">
+                                <div class="user-avatar" style="width: 80px; height: 80px; font-size: 2rem;">هـ</div>
+                                <div>
+                                    <h2 style="font-size: 1.2rem; color: var(--color-primary);">هديل قحري</h2>
+                                    <p class="text-muted">مدير النظام</p>
+                                    <button class="btn btn-outline mt-2" style="padding: 0.3rem 0.8rem; font-size: 0.8rem; margin-top: 0.5rem;">تغيير الصورة</button>
+                                </div>
+                            </div>
+
+                            <form>
+                                <div class="dashboard-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+                                    <div class="form-group">
+                                        <label class="form-label">الاسم الكامل</label>
+                                        <input type="text" class="form-control" value="هديل قحري">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">البريد الإلكتروني</label>
+                                        <input type="email" class="form-control" value="hadel@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">رقم الهاتف</label>
+                                        <input type="tel" class="form-control" dir="ltr" style="text-align: right;" value="+967 77 000 0000">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">الدور</label>
+                                        <input type="text" class="form-control" value="مدير النظام" disabled>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">حفظ التغييرات</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>تغيير كلمة المرور</h3>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label class="form-label">كلمة المرور الحالية</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">كلمة المرور الجديدة</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">تأكيد كلمة المرور</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-accent" style="margin-top: 1rem;">تحديث كلمة المرور</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

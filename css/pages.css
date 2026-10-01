@@ -1,0 +1,250 @@
+﻿
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-body);
+    background-image: radial-gradient(circle at center, #1a1a1f 0%, var(--color-primary) 100%);
+}
+
+.login-card {
+    background-color: var(--bg-surface);
+    width: 100%;
+    max-width: 420px;
+    padding: 3rem 2.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.login-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-accent);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.login-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.login-logo span {
+    color: var(--color-accent);
+}
+
+.login-subtitle {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: var(--text-muted);
+}
+
+.forgot-link {
+    color: var(--color-accent);
+    transition: color var(--transition-fast);
+}
+
+.forgot-link:hover {
+    color: var(--color-accent-hover);
+}
+
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background-color: var(--bg-surface);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-accent);
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.service-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.service-category {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.service-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.service-meta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border-color);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+
+.profile-header {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--bg-body);
+    border: 3px solid var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--color-accent);
+}
+
+.profile-info h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.profile-meta {
+    display: flex;
+    gap: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.profile-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.loyalty-points {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgba(214, 168, 95, 0.1);
+    color: var(--color-accent);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+
+.specialists-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.specialist-card {
+    background-color: var(--bg-surface);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.specialist-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    background-color: var(--bg-body);
+    border: 2px solid var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialist-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.2rem;
+}
+
+.specialist-title {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.specialist-stats {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    margin-top: 1rem;
+}
+
+.s-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-stat-value {
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.s-stat-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}

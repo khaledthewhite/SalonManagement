@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة المواعيد - نظام إدارة صالون التجميل</title>
+    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#D6A85F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 8L16 12L12 16L8 12L12 8Z" stroke="#D6A85F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    صالون <span>التجميل</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <div class="menu-section">
+                    <div class="menu-title">الرئيسية</div>
+                    <a href="../index.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                        </div>
+                        لوحة التحكم
+                    </a>
+                </div>
+                
+                <div class="menu-section">
+                    <div class="menu-title">إدارة الصالون</div>
+                    <a href="appointments.html" class="menu-item active">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        </div>
+                        المواعيد
+                    </a>
+                    <a href="customers.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        العملاء
+                    </a>
+                    <a href="services.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        الخدمات
+                    </a>
+                    <a href="specialists.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                        </div>
+                        الأخصائيون
+                    </a>
+                </div>
+                
+                <div class="menu-section">
+                    <div class="menu-title">المخزون والمالية</div>
+                    <a href="inventory.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        المخزون
+                    </a>
+                    <a href="invoices.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                        </div>
+                        الفواتير
+                    </a>
+                    <a href="finance.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        المالية
+                    </a>
+                </div>
+                
+                <div class="menu-section">
+                    <div class="menu-title">النظام</div>
+                    <a href="reports.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        </div>
+                        التقارير
+                    </a>
+                    <a href="users.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        المستخدمون
+                    </a>
+                    <a href="settings.html" class="menu-item">
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                        </div>
+                        الإعدادات
+                    </a>
+                </div>
+            </nav>
+            
+            <div style="padding: 2rem; border-top: 1px solid var(--border-light); margin-top: auto;">
+                <a href="../login.html" class="menu-item" style="padding: 0.8rem 0;">
+                    <div class="menu-icon">
+                        <svg viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                    </div>
+                    تسجيل الخروج
+                </a>
+            </div>
+        </aside>
+
+        
+        <main class="main-content">
+            
+            <header class="top-header">
+                <div class="header-search">
+                    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" placeholder="ابحث عن عميل، موعد، خدمة...">
+                </div>
+                
+                <div class="header-actions">
+                    <button class="action-btn">
+                        <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                        <span class="notification-badge">3</span>
+                    </button>
+                    
+                    <div class="user-profile" onclick="window.location.href='profile.html'">
+                        <div class="user-avatar">هـ</div>
+                        <div class="user-info">
+                            <span class="user-name">هديل قحري</span>
+                            <span class="user-role">مدير النظام</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            
+            <div class="page-content">
+                <div class="page-header">
+                    <div class="page-title">
+                        <h1>إدارة المواعيد</h1>
+                        <p>عرض وإدارة حجوزات المواعيد للصالون</p>
+                    </div>
+                    <div class="page-actions">
+                        <button class="btn btn-accent">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                            إضافة موعد
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-body" style="display: flex; gap: 1rem; align-items: flex-end; flex-wrap: wrap;">
+                        <div class="form-group" style="margin-bottom: 0; min-width: 250px; flex: 1;">
+                            <label class="form-label">البحث</label>
+                            <input type="text" class="form-control" placeholder="البحث باسم العميلة...">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 0; min-width: 200px;">
+                            <label class="form-label">التاريخ</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 0; min-width: 200px;">
+                            <label class="form-label">الحالة</label>
+                            <select class="form-select">
+                                <option value="">الكل</option>
+                                <option value="pending">قيد الانتظار</option>
+                                <option value="confirmed">مؤكد</option>
+                                <option value="inprogress">قيد التنفيذ</option>
+                                <option value="completed">مكتمل</option>
+                                <option value="cancelled">ملغي</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-primary" style="height: 42px;">تصفية</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>العميلة</th>
+                                    <th>الخدمة</th>
+                                    <th>الأخصائية</th>
+                                    <th>التاريخ</th>
+                                    <th>الوقت</th>
+                                    <th>السعر</th>
+                                    <th>الحالة</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-bold">نور</td>
+                                    <td>قص شعر + استشوار</td>
+                                    <td>امل</td>
+                                    <td>12 أكتوبر 2026</td>
+                                    <td>02:30 م</td>
+                                    <td>150 ريال يمني</td>
+                                    <td><span class="badge badge-warning">قيد الانتظار</span></td>
+                                    <td>
+                                        <button class="btn-icon" title="عرض التفاصيل">
+                                            <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </button>
+                                        <button class="btn-icon" title="تعديل">
+                                            <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                                        </button>
+                                        <button class="btn-icon" style="color: #EF4444;" title="إلغاء">
+                                            <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">رهام</td>
+                                    <td>تنظيف بشرة عميق</td>
+                                    <td>منى</td>
+                                    <td>12 أكتوبر 2026</td>
+                                    <td>03:00 م</td>
+                                    <td>350 ريال يمني</td>
+                                    <td><span class="badge badge-info">مؤكد</span></td>
+                                    <td>
+                                        <button class="btn-icon" title="عرض التفاصيل">
+                                            <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </button>
+                                        <button class="btn-icon" title="تعديل">
+                                            <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">يسرا</td>
+                                    <td>صبغة شعر</td>
+                                    <td>أمل</td>
+                                    <td>12 أكتوبر 2026</td>
+                                    <td>03:30 م</td>
+                                    <td>450 ريال يمني</td>
+                                    <td><span class="badge badge-success">قيد التنفيذ</span></td>
+                                    <td>
+                                        <button class="btn-icon" title="عرض التفاصيل">
+                                            <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">امل</td>
+                                    <td>مكياج سهرة</td>
+                                    <td>ريم</td>
+                                    <td>11 أكتوبر 2026</td>
+                                    <td>05:00 م</td>
+                                    <td>250 ريال يمني</td>
+                                    <td><span class="badge badge-neutral">مكتمل</span></td>
+                                    <td>
+                                        <button class="btn-icon" title="عرض التفاصيل">
+                                            <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

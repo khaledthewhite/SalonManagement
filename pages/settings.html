@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإعدادات - نظام إدارة صالون التجميل</title>
+    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header"><div class="sidebar-logo">صالون <span>التجميل</span></div></div>
+            <nav class="sidebar-menu">
+                <a href="../index.html" class="menu-item">لوحة التحكم</a>
+                <a href="users.html" class="menu-item">المستخدمون</a>
+                <a href="settings.html" class="menu-item active">الإعدادات</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-search"><input type="text" placeholder="بحث..."></div>
+            </header>
+
+            <div class="page-content">
+                <div class="page-header">
+                    <div class="page-title">
+                        <h1>الإعدادات</h1>
+                        <p>تكوين إعدادات النظام والصالون</p>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid" style="grid-template-columns: 250px 1fr;">
+                    
+                    <div class="card" style="height: fit-content;">
+                        <div class="card-body" style="padding: 1rem 0;">
+                            <ul style="list-style: none;">
+                                <li><a href="#" class="btn btn-outline" style="border: none; width: 100%; justify-content: flex-start; border-radius: 0; background-color: var(--bg-hover); color: var(--color-accent); border-right: 3px solid var(--color-accent);">إعدادات الصالون</a></li>
+                                <li><a href="#" class="btn btn-outline" style="border: none; width: 100%; justify-content: flex-start; border-radius: 0; border-right: 3px solid transparent;">إعدادات المواعيد</a></li>
+                                <li><a href="#" class="btn btn-outline" style="border: none; width: 100%; justify-content: flex-start; border-radius: 0; border-right: 3px solid transparent;">الإشعارات</a></li>
+                                <li><a href="#" class="btn btn-outline" style="border: none; width: 100%; justify-content: flex-start; border-radius: 0; border-right: 3px solid transparent;">الفواتير والضرائب</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>إعدادات الصالون العامة</h3>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group mb-3">
+                                    <label class="form-label">اسم الصالون</label>
+                                    <input type="text" class="form-control" value="صالون التجميل">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="form-label">رقم التواصل</label>
+                                    <input type="tel" class="form-control" dir="ltr" style="text-align: right;" value="+967 77 123 4567">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="form-label">البريد الإلكتروني الرسمي</label>
+                                    <input type="email" class="form-control" value="info@beautysalon.com">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="form-label">العنوان</label>
+                                    <textarea class="form-control" rows="3">شارع العليا، الرياض، المملكة العربية السعودية</textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-accent">حفظ الإعدادات</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

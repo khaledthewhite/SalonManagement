@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المخزون - نظام إدارة صالون التجميل</title>
+    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">صالون <span>التجميل</span></div>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="../index.html" class="menu-item">لوحة التحكم</a>
+                <a href="inventory.html" class="menu-item active">المخزون</a>
+            </nav>
+        </aside>
+
+        
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-search">
+                    <input type="text" placeholder="ابحث عن منتج...">
+                </div>
+            </header>
+
+            <div class="page-content">
+                <div class="page-header">
+                    <div class="page-title">
+                        <h1>إدارة المخزون</h1>
+                        <p>متابعة كميات المنتجات وتنبيهات النواقص</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>المنتج</th>
+                                    <th>الفئة</th>
+                                    <th>الكمية</th>
+                                    <th>السعر</th>
+                                    <th>الحالة</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-bold">شامبو خالي من السلفات</td>
+                                    <td>العناية بالشعر</td>
+                                    <td>45</td>
+                                    <td>85 ريال يمني</td>
+                                    <td><span class="badge badge-success">متوفر</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">سيروم فيتامين سي</td>
+                                    <td>العناية بالبشرة</td>
+                                    <td style="color: #F59E0B; font-weight: 700;">8</td>
+                                    <td>120 ريال يمني</td>
+                                    <td><span class="badge badge-warning">منخفض</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">صبغة شعر بني غامق</td>
+                                    <td>الألوان والصبغات</td>
+                                    <td style="color: #EF4444; font-weight: 700;">0</td>
+                                    <td>65 ريال يمني</td>
+                                    <td><span class="badge badge-danger">نفد المخزون</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
